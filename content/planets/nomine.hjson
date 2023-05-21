@@ -5,7 +5,7 @@ accessible: true
 alwaysUnlocked: true
 allowLaunchLoadout: false
 allowLaunchSchematics: false
-allowLaunchToNumbered: true
+allowLaunchToNumbered: false
 allowSectorInvasion: false
 allowWaveSimulation: false
 atmosphereColor: 2a383f
