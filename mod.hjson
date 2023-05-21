@@ -1,8 +1,8 @@
 name: legion
 displayName: "[#85b0cc[]]Legion"
 author: bttodi
-description: Descend upon Nomine, a planet of stark snow and desolate deserts. Fend off its Legion that rules rampant.
+description: Currently in development, lots of missing sprites and not much content. Descend upon Nomine, a planet of stark snow and desolate deserts. Fend off its Legion that rules rampant.
 subtitle: ai ssarap
-minGameVersion: 143.1
+minGameVersion: 144
 dependencies: [ ]
 hidden: false
