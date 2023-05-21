@@ -1,0 +1,7 @@
+type: Item
+localizedName: Titanite
+description: Used in research and construction of many buildings.
+color: e1e1e1
+cost: 1
+research: sienna
+alwaysUnlocked: true

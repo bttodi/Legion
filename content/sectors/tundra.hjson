@@ -1,0 +1,18 @@
+localizedName: Tundra
+description: "Three lowly enemy bases are in proximity. Research the [accent]Hatchery[] to produce units of your own to take them down."
+planet: nomine
+sector: 37
+difficulty: 2
+research: {
+	parent: incept
+	objectives: [
+		{
+			type: SectorComplete
+			preset: incept
+		}
+	]
+}
+addStartingItems: true
+overrideLaunchDefaults: true
+allowLaunchLoadout: true
+allowLaunchSchematics: false

@@ -1,0 +1,9 @@
+type: CoreBlock
+localizedName: "Core: Lotus"
+description: Core of the base. Stores 6000 items of each type.
+buildVisibility: shown
+health: 750000
+size: 5
+category: effect
+itemCapacity: 6000
+incinerateNonBuildable: true

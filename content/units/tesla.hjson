@@ -1,0 +1,35 @@
+type: missile
+hittable: false
+targetable: false
+clipSize: 1
+speed: 0
+lifetime: 8
+createScorch: false
+deathSound: none
+deathExplosionEffect: none
+drawBody: false
+drawCell: false
+drawEngines: false
+drawMinimap: false
+hoverable: false
+playerControllable: false
+useUnitCap: false
+isEnemy: false
+hidden: true
+abilities: [
+	{
+		type: EnergyFieldAbility
+		hitBuildings: false
+		range: 125
+		reload: 5
+		damage: 100
+		shootSound: spark
+		maxTargets: 5
+		healPercent: 0
+		sectors: 0
+		color: 85b0cc
+		effectRadius: 0
+		status: none
+		hitEffect: none
+	}
+]

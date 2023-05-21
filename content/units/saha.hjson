@@ -1,0 +1,45 @@
+type: hover
+localizedName: Saha
+description: Attacks enemy targets up close. 
+health: 2000
+outlineColor: 0c7f74
+speed: 0.325
+drag: 0.05
+accel: 0.05
+itemCapacity: 0
+hitSize: 4
+createScorch: false
+deathSound: plantBreak
+deathExplosionEffect: none
+targetAir: false
+abilities: [
+	{
+		type: LiquidExplodeAbility
+		liquid: neoplasm
+		amount: 5
+		display: false
+	}
+]
+weapons: [
+	{
+		mirror: false
+		reload: 12
+		shootSound: none
+		rotates: true
+		x: 0
+		bullet: {
+			type: BasicBulletType
+			width: 0
+			speed: 2
+			lifetime: 8
+			collidesAir: false
+			damage: 10
+			shootEffect: none
+			smokeEffect: none
+		}
+	}
+]
+research: {
+	parent: hatchery
+	requirements: [sanguine/250]
+}

@@ -1,0 +1,15 @@
+type: GenericCrafter
+localizedName: Quarry
+description: Outputs titanite in bursts at a fixed rate indefinitely.
+buildVisibility: shown
+health: 3000
+size: 3
+category: crafting
+craftTime: 240
+outputItem: titanite/4
+buildCostMultiplier: 6
+research: burner
+alwaysUnlocked: true
+requirements: [
+	sienna/100
+]

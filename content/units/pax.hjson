@@ -1,0 +1,46 @@
+type: flying
+localizedName: Pax
+description: Repairs nearby allied grounded units.
+outlineColor: 63717f
+flying: true
+canAttack: false
+faceTarget: false
+rotateSpeed: 1
+speed: 0.325
+health: 400
+itemCapacity: 0
+hitSize: 4
+range: 64
+drag: 0.05
+accel: 0.05
+maxRange: 32
+createScorch: false
+fallEffect: none
+fallEngineEffect: none
+deathSound: plantBreak
+deathExplosionEffect: none
+abilities: [
+	{
+		type: LiquidExplodeAbility
+		liquid: neoplasm
+		amount: 10
+		display: false
+	}
+]
+weapons: [
+	{
+		name: pax-weapon
+		type: RepairBeamWeapon
+		mirror: false
+		x: 0
+		y: 2
+		beamWidth: 0.5
+		repairSpeed: 1
+		recentDamageMultiplier: 1
+		rotate: true
+		bullet: {
+			type: BulletType
+			maxRange: 32
+		}
+	}
+]

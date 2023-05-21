@@ -1,0 +1,15 @@
+type: Wall
+localizedName: Titanite Wall
+description: Protects buildings against enemy attacks.
+buildVisibility: shown
+health: 1000
+category: defense
+research: {
+	parent: reave
+	requirements: [
+		titanite/50
+	]
+}
+requirements: [
+	titanite/10
+]

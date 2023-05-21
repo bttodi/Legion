@@ -1,0 +1,33 @@
+type: PowerTurret
+localizedName: Reave
+description: Fires heavy bullets at enemy targets.
+buildVisibility: shown
+health: 6000
+size: 3
+category: turret
+buildCostMultiplier: 3
+range: 150
+reload: 120
+canOverdrive: false
+recoil: 0
+shootSound: shootSnap
+shootCone: 2
+shootType: {
+	type: BasicBulletType
+	ammoMultiplier: 1
+	damage: 100
+	speed: 5
+	lifetime: 30
+	width: 8
+	height: 16
+	homingPower: 1
+	trailLength: 4
+	trailWidth: 1
+	trailColor: f9c27a
+}
+research: core-sin
+alwaysUnlocked: true
+requirements: [
+	titanite/250
+	sienna/250
+]

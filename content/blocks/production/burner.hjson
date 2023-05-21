@@ -1,0 +1,15 @@
+type: GenericCrafter
+localizedName: Burner
+description: Outputs sienna at a fixed rate indefinitely.
+buildVisibility: shown
+health: 3000
+size: 3
+category: crafting
+craftTime: 60
+outputItem: sienna/1
+buildCostMultiplier: 6
+research: core-sin
+alwaysUnlocked: true
+requirements: [
+	titanite/100
+]

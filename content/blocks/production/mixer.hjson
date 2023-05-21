@@ -1,0 +1,13 @@
+type: AttributeCrafter
+localizedName: Mixer
+description: Outputs viridian at a fixed rate indefinitely.
+buildVisibility: shown
+health: 3000
+size: 3
+category: crafting
+craftTime: 60
+outputItem: viridian/1
+attribute: heat
+baseEfficiency: 0
+boostScale: 0.112
+minEfficiency: 9

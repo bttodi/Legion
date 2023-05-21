@@ -1,0 +1,53 @@
+localizedName: Nomine
+generator: PlanetGenerator
+parent: sun
+accessible: true
+alwaysUnlocked: true
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+allowLaunchToNumbered: true
+allowSectorInvasion: false
+allowWaveSimulation: false
+atmosphereColor: 2a383f
+atmosphereRadIn: 0
+atmosphereRadOut: 0.1
+bloom: false
+clearSectorOnLose: true
+defaultCore: core-sin
+drawOrbit: true
+iconColor: e1e1e1
+landCloudColor: b29785
+orbitTime: 1618
+prebuildBase: true
+radius: 1
+sectorSize: 2
+startSector: 1
+updateLighting: true
+itemWhitelist: [
+	sienna
+	titanite
+	sanguine
+	viridian
+	atramentite
+]
+mesh: {
+	type: NoiseMesh
+	seed: 17
+	divisions: 5
+	color1: b29785
+	color2: e1e1e1
+	radius: 1
+	octaves: 10
+	persistence: 0.8
+	scale: 2
+	mag: 0.5
+}
+cloudMesh: {
+	type: HexSkyMesh
+	seed: 19
+	speed: 4
+	divisions: 4
+	color: b29785e1
+	radius: 0.1
+	thresh: 0.6
+}

@@ -1,0 +1,19 @@
+type: StackConveyor
+localizedName: Titanite Conveyor
+description: Passes items forward. Ignored by enemies.
+buildVisibility: shown
+health: 120
+size: 1
+category: distribution
+speed: 0.125
+targetable: false
+research: core-sin
+alwaysUnlocked: true
+ambientSoundVolume: 0
+itemCapacity: 1
+recharge: 1
+bridgeReplacement: titanite-bridge-conveyor
+requirements: [
+	titanite/1
+	sienna/1
+]

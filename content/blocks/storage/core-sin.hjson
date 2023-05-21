@@ -1,0 +1,21 @@
+type: CoreBlock
+localizedName: "Core: Sin"
+description: Core of the base. Stores 1500 items of each type.
+buildVisibility: shown
+health: 30000
+size: 3
+category: effect
+itemCapacity: 1500
+alwaysUnlocked: true
+isFirstTier: true
+incinerateNonBuildable: true
+unitType: signet
+research: {
+	name: Nomine
+	planet: nomine
+	root: true
+}
+requirements: [
+	sienna/750
+	titanite/750
+]

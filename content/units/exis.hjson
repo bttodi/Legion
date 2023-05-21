@@ -1,0 +1,97 @@
+type: flying
+localizedName: Existentialism
+description: Fires homing orbs. Periodically inflicts bloodboil to all nearby allied units.
+outlineColor: 302d33
+flying: true
+rotateSpeed: 1
+speed: 1
+health: 40000
+itemCapacity: 0
+hitSize: 24
+range: 64
+drag: 0.05
+accel: 0.05
+createScorch: false
+engineSize: 0
+fallEffect: none
+fallEngineEffect: none
+deathSound: plantBreak
+deathExplosionEffect: none
+abilities: [
+	{
+		type: LiquidExplodeAbility
+		liquid: neoplasm
+		amount: 500
+		display: false
+	}
+	{
+		type: MoveEffectAbility
+		minVelocity: 0
+		interval: 90
+		parentizeEffects: true
+		effect: {
+			type: MultiEffect
+			effects: [
+				{
+					type: ParticleEffect
+					region: "legion-existentialism"
+					spin: -1
+					lifetime: 91
+					length: 0
+					particles: 1
+					sizeFrom: 16
+					sizeTo: 16
+					layer: 95
+				}
+				{
+					type: ParticleEffect
+					region: "legion-existentialism"
+					colorFrom: 0000003f
+					colorTo: 0000003f
+					offsetX: -12.5
+					offsetY: -12.5
+					spin: -1
+					lifetime: 90
+					length: 0
+					particles: 1
+					sizeFrom: 16
+					sizeTo: 16
+					layer: 94
+				}
+				{
+					type: WaveEffect
+					lifetime: 135
+					colorFrom: f3d58b7f
+					colorTo: f3d58b7f
+					sizeFrom: 64
+					sizeTo: 64
+					strokeTo: 2
+					layer: 95
+				}
+			]
+		}
+	}
+]
+weapons: [
+	{
+		mirror: false
+		shootCone: 180
+		reload: 240
+		x: 0
+		shootY: 0
+		shootSound: shockBlast
+		shoot: {
+			type: ShootSpread
+			shots: 8
+			spread: 22.5
+		}
+		bullet: {
+			type: BasicBulletType
+			damage: 60
+			lifetime: 60
+			speed: 2
+			homingRange: 120
+			homingPower: 0.2
+		}
+	}
+]

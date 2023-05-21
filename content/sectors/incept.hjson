@@ -1,0 +1,8 @@
+localizedName: Incept
+description: An optimal location to settle in the meantime. Gather resources, research basic tech, and be familiar with the planet.
+planet: nomine
+sector: 1
+captureWave: 3
+alwaysUnlocked: true
+difficulty: 1
+research: core-sin

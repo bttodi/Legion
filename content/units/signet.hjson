@@ -1,0 +1,32 @@
+type: payload
+localizedName: Signet
+description: Constructs buildings to protect the Sin core. Capable of carrying 3x3 buildings.
+health: 100
+outlineColor: 656657
+speed: 1.5
+drag: 0.05
+accel: 0.05
+flying: true
+itemCapacity: 40
+targetable: false
+hittable: false
+vulnerableWithPayloads: true
+payloadCapacity: 576
+buildSpeed: 1
+engineSize: 0
+pickupUnits: false
+alwaysUnlocked: true
+engines: [
+	{
+		x: -2
+		y: -5
+		radius: 1.25
+		rotation: 270
+	}
+	{
+		x: 2
+		y: -5
+		radius: 1.25
+		rotation: 270
+	}
+]

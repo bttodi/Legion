@@ -1,0 +1,24 @@
+type: ItemBridge
+localizedName: Titanite Bridge Conveyor
+description: Passes items over buildings and terrain. Ignored by enemies.
+buildVisibility: shown
+health: 120
+size: 1
+category: distribution
+transportTime: 7
+fadeIn: false
+range: 4
+targetable: false
+solid: false
+bridgeWidth: 8
+research: {
+	parent: titanite-conveyor
+	requirements: [
+		titanite/50
+		sienna/50
+	]
+}
+requirements: [
+	titanite/5
+	sienna/5
+]

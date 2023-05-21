@@ -1,0 +1,33 @@
+type: StatusEffect
+localizedName: Bloodboil
+healthMultiplier: 0.8
+speedMultiplier: 1.25
+reloadMultiplier: 1.2
+damageMultiplier: 1.2
+applyColor: f97100
+color: f97100
+effect: {
+	type: ParticleEffect
+	particles: 1
+	length: 0
+	baseRotation: 90
+	offset: 45
+	offsetX: -6
+	region: select-arrow
+	useRotation: false
+	cone: 0
+	length: 8
+	randLength: false
+	sizeFrom: 3
+	sizeTo: 3
+	colorFrom: f97100
+	colorTo: f9710000
+}
+applyEffect: {
+	type: WaveEffect
+	lifetime: 60
+	sizeTo: 16
+	colorFrom: f97100
+	colorTo: f97100
+	interp: circleOut
+}

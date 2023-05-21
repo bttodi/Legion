@@ -1,0 +1,34 @@
+type: StatusEffect
+localizedName: Impaired
+healthMultiplier: 0.9
+damage: 1
+applyColor: f08dd5
+color: f08dd5
+effect: {
+	type: ParticleEffect
+	particles: 1
+	length: 0
+	baseRotation: 270
+	offset: 45
+	offsetX: -6
+	region: select-arrow
+	useRotation: false
+	cone: 0
+	length: 8
+	randLength: false
+	sizeFrom: 3
+	sizeTo: 3
+	colorFrom: f08dd5
+	colorTo: f08dd500
+}
+applyEffect: {
+	type: ParticleEffect
+	particles: 20
+	lifetime: 60
+	length: 40
+	line: true
+	colorFrom: f08dd5
+	colorTo: f08dd5
+	lenFrom: 8
+	interp: circleOut
+}

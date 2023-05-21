@@ -1,0 +1,5 @@
+type: Item
+localizedName: Sanguine
+description: Used in research and construction of units.
+color: 9b342b
+research: titanite

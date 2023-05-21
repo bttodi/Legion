@@ -1,0 +1,30 @@
+type: PowerTurret
+localizedName: Rupture
+description: Discharges bursts of lightning at up to five targets. Cannot hit or target buildings.
+buildVisibility: shown
+health: 15000
+size: 3
+category: turret
+range: 125
+reload: 600
+canOverdrive: false
+shootY: 0
+recoil: 0
+rotateSpeed: 0
+shootSound: none
+shootCone: 180
+targetHealing: false
+shootWarmupSpeed: 0.1
+minWarmup: 0.99
+shootType: {
+	type: BulletType
+	spawnUnit: tesla
+	damage: 100
+	ammoMultiplier: 1
+	shootEffect: none
+	smokeEffect: none
+}
+shoot: {
+	shots: 10
+	shotDelay: 10
+}

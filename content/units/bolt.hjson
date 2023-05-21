@@ -1,0 +1,75 @@
+type: hover
+localizedName: Bolt
+description: Detonates when destroyed or in proximity to enemy targets, causing a heavy explosion.
+health: 600
+outlineColor: 993030
+speed: 0.65
+drag: 0.05
+accel: 0.05
+itemCapacity: 0
+hitSize: 4
+createScorch: false
+deathSound: none
+deathExplosionEffect: none
+abilities: [
+	{
+		type: LiquidExplodeAbility
+		liquid: neoplasm
+		amount: 5
+		display: false
+	}
+]
+weapons: [
+	{
+		mirror: false
+		reload: 20
+		shootCone: 180
+		shootSound: bang
+		x: 0
+		shootY: 0
+		shootOnDeath: true
+		bullet: {
+			type: ExplosionBulletType
+			rangeOverride: 12
+			splashDamage: 3000
+			splashDamageRadius: 32
+			buildingDamageMultiplier: 0.5
+			pierce: true
+			despawnEffect: none
+			shootEffect: {
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						particles: 16
+						baseLength: 10
+						length: 10
+						lifetime: 300
+						colorFrom: e14646
+						colorTo: e1464600
+						layer: 99
+						sizeFrom: 4
+						sizeTo: 4
+						interp: circleOut
+					}
+					{
+						Type: ParticleEffect
+						particles: 16
+						length: 40
+						lifetime: 60
+						colorFrom: e14646
+						colorTo: e14646
+						layer: 99
+						line: true
+						lenFrom: 8
+						lenTo: 0
+						strokeFrom: 4
+						interp: circleOut
+					}
+				]
+			}
+			smokeEffect: none
+			killShooter: true
+		}
+	}
+]

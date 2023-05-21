@@ -1,0 +1,35 @@
+type: ContinuousTurret
+localizedName: Talon
+description: Points a single-target laser at grounded targets.
+buildVisibility: shown
+health: 9000
+size: 3
+category: turret
+range: 80
+canOverdrive: false
+shootY: 0
+recoil: 0
+shootSound: none
+loopSound: laserbeam
+loopSoundVolume: 1
+shootCone: 45
+targetAir: false
+shootType: {
+	type: PointLaserBulletType
+	collidesAir: false
+	pierce: false
+	damage: 75
+	oscScl: 0
+	beamEffect: {
+		type: ParticleEffect
+		particles: 2
+		length: 8
+		lifetime: 30
+		colorFrom: feb380
+		colorTo: feb380
+		line: true
+		sizeFrom: 4
+		strokeFrom: 4
+		interp: circleOut
+	}
+}

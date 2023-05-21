@@ -1,0 +1,6 @@
+type: Item
+localizedName: Sienna
+description: Used in research and construction of many buildings.
+color: b57d3d
+research: core-sin
+alwaysUnlocked: true

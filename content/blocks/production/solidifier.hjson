@@ -1,0 +1,9 @@
+type: GenericCrafter
+localizedName: Solidifier
+description: Outputs atramentite at a fixed rate indefinitely.
+buildVisibility: shown
+health: 6000
+size: 3
+category: crafting
+craftTime: 300
+outputItem: atramentite/1

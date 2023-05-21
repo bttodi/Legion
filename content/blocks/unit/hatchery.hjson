@@ -1,0 +1,46 @@
+type: UnitFactory
+localizedName: Hatchery
+description: Produces standard units with sanguine.
+health: 4000
+size: 3
+buildVisibility: shown
+category: units
+plans: [
+	{
+		unit: fink
+		time: 2000
+		requirements: [sanguine/75]
+	}
+	{
+		unit: saha
+		time: 2000
+		requirements: [sanguine/225]
+	}
+	{
+		unit: bolt
+		time: 30000
+		requirements: [sanguine/300]
+	}
+	{
+		unit: pax
+		time: 24000
+		requirements: [sanguine/200]
+	}
+]
+requirements: [
+	sienna/200
+	titanite/200
+	sanguine/100
+]
+research: {
+	parent: core-sin
+	objectives: [
+		{
+			type: SectorComplete
+			preset: incept
+		}
+	]
+	requirements: [
+		sanguine/100
+	]
+}
