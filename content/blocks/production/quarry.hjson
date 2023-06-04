@@ -8,7 +8,57 @@ category: crafting
 craftTime: 240
 outputItem: titanite/4
 buildCostMultiplier: 6
+itemCapacity: 30
 research: burner
+craftEffect: {
+	type: MultiEffect
+	effects: [
+		{
+			type: ParticleEffect
+			lifetime: 120
+			colorFrom: bbbbbfe1
+			colorTo: bbbbbf00
+			cone: 20
+			baseRotation: 45
+			offsetX: 6
+			sizeTo: 4
+			length: 10
+		}
+		{
+			type: ParticleEffect
+			lifetime: 120
+			colorFrom: bbbbbfe1
+			colorTo: bbbbbf00
+			cone: 20
+			baseRotation: 135
+			offsetX: 6
+			sizeTo: 4
+			length: 10
+		}
+		{
+			type: ParticleEffect
+			lifetime: 120
+			colorFrom: bbbbbfe1
+			colorTo: bbbbbf00
+			cone: 20
+			baseRotation: 225
+			offsetX: 6
+			sizeTo: 4
+			length: 10
+		}
+		{
+			type: ParticleEffect
+			lifetime: 120
+			colorFrom: bbbbbfe1
+			colorTo: bbbbbf00
+			cone: 20
+			baseRotation: 315
+			offsetX: 6
+			sizeTo: 4
+			length: 10
+		}
+	]
+}
 alwaysUnlocked: true
 requirements: [
 	sienna/100
