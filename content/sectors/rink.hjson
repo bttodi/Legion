@@ -1,0 +1,18 @@
+localizedName: Rink
+description: "Two [accent]defensive[] outposts are spotted nearby. A building with repairing capability is present, attack with [accent]groups[] of units to overpower it."
+planet: nomine
+sector: 14
+difficulty: 3
+research: {
+	parent: tundra
+	objectives: [
+		{
+			type: SectorComplete
+			preset: tundra
+		}
+	]
+}
+addStartingItems: true
+overrideLaunchDefaults: true
+allowLaunchLoadout: true
+allowLaunchSchematics: false
