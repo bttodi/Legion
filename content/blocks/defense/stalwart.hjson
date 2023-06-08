@@ -1,0 +1,28 @@
+type: RegenProjector
+localizedName: Stalwart
+description: Repairs all allied buildings in a square perimeter.
+buildVisibility: shown
+health: 3000
+size: 3
+range: 30
+healPercent: 0.04
+category: defense
+buildCostMultiplier: 2
+alwaysUnlocked: true
+research: {
+	parent: titanite-wall
+	objectives: [
+		{
+			type: SectorComplete
+			preset: rink
+		}
+	]
+	requirements: [
+		titanite/3000
+		sienna/3000
+	]
+}
+requirements: [
+	sienna/750
+	titanite/750
+]
