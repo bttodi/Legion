@@ -11,6 +11,7 @@ hitSize: 4
 createScorch: false
 deathSound: none
 deathExplosionEffect: none
+lightRadius: 0
 abilities: [
 	{
 		type: LiquidExplodeAbility
@@ -73,3 +74,7 @@ weapons: [
 		}
 	}
 ]
+research: {
+	parent: hatchery
+	requirements: [sanguine/4000]
+}
