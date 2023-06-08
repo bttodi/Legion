@@ -19,6 +19,7 @@ fallEffect: none
 fallEngineEffect: none
 deathSound: plantBreak
 deathExplosionEffect: none
+lightRadius: 0
 abilities: [
 	{
 		type: LiquidExplodeAbility
@@ -44,3 +45,7 @@ weapons: [
 		}
 	}
 ]
+research: {
+	parent: hatchery
+	requirements: [sanguine/6000]
+}
