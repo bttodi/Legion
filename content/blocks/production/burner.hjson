@@ -8,8 +8,37 @@ category: crafting
 craftTime: 60
 outputItem: sienna/1
 buildCostMultiplier: 6
+itemCapacity: 30
 research: core-sin
 alwaysUnlocked: true
+craftEffect: {
+	type: MultiEffect
+	effects: [
+		{
+			type: ParticleEffect
+			lifetime: 120
+			colorFrom: 2222227f
+			colorTo: 22222200
+			layer: 89
+			cone: 45
+			baseRotation: 90
+			sizeFrom: 4
+			sizeTo: 6
+		}
+	]
+}
+drawer: [
+	{
+		type: DrawRegion
+		suffix: -bottom
+	}
+	{
+		type: DrawArcSmelt
+	}
+	{
+		type: DrawDefault
+	}
+]
 requirements: [
 	titanite/100
 ]
