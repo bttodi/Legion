@@ -5,10 +5,10 @@ buildVisibility: shown
 health: 3000
 size: 3
 range: 30
-healPercent: 0.04
+healPercent: 0.02
 category: defense
 buildCostMultiplier: 2
-alwaysUnlocked: true
+priority: 1
 research: {
 	parent: titanite-wall
 	objectives: [
