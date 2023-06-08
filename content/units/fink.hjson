@@ -12,6 +12,7 @@ createScorch: false
 deathSound: plantBreak
 deathExplosionEffect: none
 targetAir: false
+lightRadius: 0
 abilities: [
 	{
 		type: LiquidExplodeAbility
@@ -29,6 +30,7 @@ weapons: [
 		x: 0
 		bullet: {
 			type: BasicBulletType
+			lightRadius: 0
 			width: 0
 			speed: 2
 			lifetime: 8
