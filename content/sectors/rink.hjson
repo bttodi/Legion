@@ -13,6 +13,5 @@ research: {
 	]
 }
 addStartingItems: true
-overrideLaunchDefaults: true
 allowLaunchLoadout: true
 allowLaunchSchematics: false
