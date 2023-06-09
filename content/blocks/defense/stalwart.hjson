@@ -4,8 +4,9 @@ description: Repairs all allied buildings in a square perimeter.
 buildVisibility: shown
 health: 3000
 size: 3
-range: 30
-healPercent: 0.02
+range: 20
+healPercent: 0.083
+optionalMultiplier: 1
 category: defense
 buildCostMultiplier: 2
 priority: 1
