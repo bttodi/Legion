@@ -1,9 +1,11 @@
 type: StatusEffect
 localizedName: Impaired
-healthMultiplier: 0.9
-damage: 1
+healthMultiplier: 0.6
+speedMultiplier: 0.6
 applyColor: f08dd5
 color: f08dd5
+parentizeEffect: true
+parentizeApplyEffect: true
 effect: {
 	type: ParticleEffect
 	particles: 1
@@ -23,12 +25,12 @@ effect: {
 }
 applyEffect: {
 	type: ParticleEffect
-	particles: 20
+	region: legion-ankh
+	particles: 1
 	lifetime: 60
-	length: 40
-	line: true
-	colorFrom: f08dd5
-	colorTo: f08dd5
-	lenFrom: 8
-	interp: circleOut
+	length: 0
+	sizeFrom: 32
+	sizeTo: 8
+	colorTo: ffffff00
+	sizeInterp: pow10Out
 }
