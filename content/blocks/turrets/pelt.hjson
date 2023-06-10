@@ -22,7 +22,7 @@ shootType: {
 	speed: 1
 	damage: 0
 	splashDamage: 25
-	splashDamageRadius: 30
+	splashDamageRadius: 16
 	collides: true
 	collidesAir: false
 	shootEffect: none
