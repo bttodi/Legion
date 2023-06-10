@@ -5,6 +5,7 @@ health: 4000
 size: 3
 buildVisibility: shown
 category: units
+buildCostMultiplier: 2
 plans: [
 	{
 		unit: fink
@@ -28,9 +29,9 @@ plans: [
 	}
 ]
 requirements: [
-	sienna/200
-	titanite/200
-	sanguine/100
+	sienna/250
+	titanite/250
+	sanguine/250
 ]
 research: {
 	parent: core-sin
