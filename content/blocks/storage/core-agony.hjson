@@ -7,3 +7,4 @@ size: 4
 category: effect
 itemCapacity: 3000
 incinerateNonBuildable: true
+unitType: emblem
