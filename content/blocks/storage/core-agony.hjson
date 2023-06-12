@@ -8,3 +8,4 @@ category: effect
 itemCapacity: 3000
 incinerateNonBuildable: true
 unitType: emblem
+unitCapModifier: 15
