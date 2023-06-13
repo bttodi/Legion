@@ -14,7 +14,7 @@ rotateSpeed: 0
 shootSound: none
 shootCone: 180
 targetHealing: false
-shootWarmupSpeed: 0.1
+shootWarmupSpeed: 0.05
 minWarmup: 0.99
 shootType: {
 	type: BulletType
@@ -28,3 +28,12 @@ shoot: {
 	shots: 10
 	shotDelay: 10
 }
+drawer: [
+	{
+		type: DrawTurret
+	}
+	{
+		type: DrawGlowRegion
+		color: 85b0cc
+	}
+]
