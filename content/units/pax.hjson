@@ -1,6 +1,6 @@
 type: flying
 localizedName: Pax
-description: Repairs nearby allied grounded units.
+description: Repairs nearby allied units.
 outlineColor: 63717f
 flying: true
 canAttack: false
