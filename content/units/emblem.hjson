@@ -16,6 +16,8 @@ buildSpeed: 1.75
 engineSize: 0
 pickupUnits: false
 alwaysUnlocked: true
+defaultController: BuilderAI
+drawBuildBeam: false
 engines: [
 	{
 		x: -2.5
@@ -28,5 +30,12 @@ engines: [
 		y: -5.5
 		radius: 1.5
 		rotation: 270
+	}
+]
+weapons: [
+	{
+		type: BuildWeapon
+		x: 3
+		y: 2.5
 	}
 ]
