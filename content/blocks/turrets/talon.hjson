@@ -7,17 +7,16 @@ size: 3
 category: turret
 range: 80
 canOverdrive: false
-shootY: 0
+shootY: 4
 recoil: 0
 shootSound: none
 loopSound: laserbeam
 loopSoundVolume: 1
-shootCone: 45
 targetAir: false
+targetInterval: 120
 shootType: {
 	type: PointLaserBulletType
 	collidesAir: false
-	pierce: false
 	damage: 75
 	oscScl: 0
 	beamEffect: {
