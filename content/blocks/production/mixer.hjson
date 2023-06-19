@@ -1,13 +1,30 @@
-type: AttributeCrafter
+type: GenericCrafter
 localizedName: Mixer
 description: Outputs viridian at a fixed rate indefinitely.
 buildVisibility: shown
 health: 3000
 size: 3
 category: crafting
-craftTime: 60
+craftTime: 120
 outputItem: viridian/1
-attribute: heat
-baseEfficiency: 0
-boostScale: 0.112
-minEfficiency: 9
+buildCostMultiplier: 4
+itemCapacity: 30
+research: {
+	parent: formulator
+	objectives: [
+		{
+			type: SectorComplete
+			preset: outwash
+		}
+	]
+	requirements: [
+		sienna/2000
+		titanite/2000
+		sanguine/2000
+	]
+}
+requirements: [
+	sienna/200
+	titanite/200
+	sanguine/200
+]
