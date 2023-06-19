@@ -16,6 +16,7 @@ shootCone: 180
 targetHealing: false
 shootWarmupSpeed: 0.05
 minWarmup: 0.99
+buildCostMultiplier: 3
 shootType: {
 	type: BulletType
 	spawnUnit: tesla
@@ -36,4 +37,17 @@ drawer: [
 		type: DrawGlowRegion
 		color: 85b0cc
 	}
+]
+research: {
+	parent: reave
+	requirements: [
+		sienna/5000
+		titanite/5000
+		viridian/2000
+	]
+}
+requirements: [
+	sienna/500
+	titanite/500
+	viridian/250
 ]
