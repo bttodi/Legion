@@ -1,0 +1,18 @@
+localizedName: Outwash
+description: "The enemy base in this sector is suited with higher-tier tech, and will be difficult to conquer by regular means. Utilize [accent]Bolts[] to deal damage effectively."
+planet: nomine
+sector: 52
+difficulty: 4
+research: {
+	parent: rink
+	objectives: [
+		bolt
+		{
+			type: SectorComplete
+			preset: rink
+		}
+	]
+}
+addStartingItems: true
+allowLaunchLoadout: true
+allowLaunchSchematics: false
