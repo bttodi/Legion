@@ -32,3 +32,16 @@ shootType: {
 		interp: circleOut
 	}
 }
+research: {
+	parent: pelt
+	requirements: [
+		sienna/5000
+		titanite/5000
+		viridian/2000
+	]
+}
+requirements: [
+	sienna/500
+	titanite/500
+	viridian/250
+]
