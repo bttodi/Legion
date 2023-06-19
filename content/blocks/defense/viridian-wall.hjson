@@ -1,0 +1,15 @@
+type: Wall
+localizedName: Viridian Wall
+description: Protects buildings against enemy attacks.
+buildVisibility: shown
+health: 3000
+category: defense
+research: {
+	parent: titanite-wall
+	requirements: [
+		viridian/300
+	]
+}
+requirements: [
+	viridian/10
+]
