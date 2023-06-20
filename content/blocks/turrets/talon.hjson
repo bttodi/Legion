@@ -14,6 +14,7 @@ loopSound: laserbeam
 loopSoundVolume: 1
 targetAir: false
 targetInterval: 120
+buildCostMultiplier: 3
 shootType: {
 	type: PointLaserBulletType
 	collidesAir: false
