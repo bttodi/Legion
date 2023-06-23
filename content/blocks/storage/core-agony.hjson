@@ -9,3 +9,16 @@ itemCapacity: 3000
 incinerateNonBuildable: true
 unitType: emblem
 unitCapModifier: 15
+requirements: [
+	sienna/2250
+	titanite/2250
+	viridian/750
+]
+research: {
+	parent: core-sin
+	requirements: [
+		sienna/9000
+		titanite/9000
+		viridian/2250
+	]
+}
