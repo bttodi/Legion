@@ -1,5 +1,5 @@
 type: Item
-localizedName: Sanguine
+localizedName: Carmine
 description: Used in research and production of units.
-color: 9b342b
+color: c54242
 research: titanite
