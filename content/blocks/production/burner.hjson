@@ -11,6 +11,7 @@ buildCostMultiplier: 6
 itemCapacity: 30
 research: core-sin
 alwaysUnlocked: true
+ambientSound: laserbeam
 craftEffect: {
 	type: MultiEffect
 	effects: [
