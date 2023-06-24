@@ -1,6 +1,6 @@
 type: UnitFactory
 localizedName: Hatchery
-description: Produces standard units with sanguine.
+description: Produces standard units with carmine.
 health: 4000
 size: 3
 buildVisibility: shown
