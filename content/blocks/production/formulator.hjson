@@ -1,12 +1,14 @@
 type: GenericCrafter
 localizedName: Formulator
-description: Outputs sanguine at a fixed rate indefinitely.
+description: Outputs carmine at a fixed rate indefinitely.
 buildVisibility: shown
 health: 3000
 size: 3
 category: crafting
 craftTime: 60
+itemCapacity: 30
 outputItem: sanguine/1
+ambientSound: bioLoop
 buildCostMultiplier: 6
 research: {
 	parent: quarry
@@ -18,4 +20,18 @@ research: {
 requirements: [
 	sienna/100
 	titanite/100
+]
+drawer: [
+	{
+		type: DrawRegion
+		suffix: -middle
+	}
+	{
+		type: DrawBubbles
+		sides: 6
+		color: F98F4A
+	}
+	{
+		type: DrawDefault
+	}
 ]
