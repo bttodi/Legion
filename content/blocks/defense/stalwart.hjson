@@ -5,11 +5,10 @@ buildVisibility: shown
 health: 3000
 size: 3
 range: 20
-healPercent: 0.083
+healPercent: 0.055
 optionalMultiplier: 1
 category: defense
 buildCostMultiplier: 2
-priority: 1
 research: {
 	parent: titanite-wall
 	objectives: [
@@ -19,11 +18,31 @@ research: {
 		}
 	]
 	requirements: [
-		titanite/3000
-		sienna/3000
+		titanite/4000
+		sienna/4000
 	]
 }
 requirements: [
 	sienna/750
 	titanite/750
+]
+drawer: [
+	{
+		type: DrawDefault
+	}
+	{
+		type: DrawGlowRegion
+		suffix: -light
+		spinSprite: true
+		rotateSpeed: 1
+		color: 85b0cc
+		layer: 99
+	}
+	{
+		type: DrawShape
+		useWarmupRadius: true
+		radius: 4
+		color: 85b0cc
+		layer: 100
+	}
 ]
