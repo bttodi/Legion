@@ -1,0 +1,51 @@
+type: hover
+localizedName: Usurper
+description: Attacks enemy targets from a distance with explosive projectiles.
+health: 8000
+outlineColor: 656657
+speed: 0.225
+drag: 0.05
+accel: 0.05
+itemCapacity: 0
+hitSize: 100
+createScorch: false
+deathSound: plantBreak
+deathExplosionEffect: none
+targetAir: false
+lightRadius: 0
+abilities: [
+	{
+		type: LiquidExplodeAbility
+		liquid: neoplasm
+		amount: 10
+		display: false
+	}
+]
+weapons: [
+	{
+		mirror: false
+		reload: 30
+		shootSound: none
+		rotates: true
+		x: 0
+		bullet: {
+			type: BasicBulletType
+			lightRadius: 0
+			width: 0
+			speed: 2
+			lifetime: 8
+			collidesAir: false
+			damage: 750
+			shootEffect: none
+			smokeEffect: none
+		}
+	}
+]
+research: {
+	parent: fink
+	requirements: [
+		sanguine/15000
+		viridian/5000
+	]
+	objectives: [locker]
+}

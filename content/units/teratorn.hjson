@@ -1,0 +1,55 @@
+type: flying
+localizedName: Teratorn
+description: Attacks enemy targets from a distance with piercing projectiles.
+flying: true
+health: 1600
+outlineColor: 656657
+speed: 0.325
+drag: 0.05
+accel: 0.05
+itemCapacity: 0
+hitSize: 4
+createScorch: false
+deathSound: plantBreak
+deathExplosionEffect: none
+targetAir: false
+lightRadius: 0
+abilities: [
+	{
+		type: LiquidExplodeAbility
+		liquid: neoplasm
+		amount: 10
+		display: false
+	}
+]
+weapons: [
+	{
+		mirror: false
+		reload: 60
+		shootSound: none
+		rotates: true
+		x: 0
+		bullet: {
+			type: BasicBulletType
+			speed: 2
+			shrinkY: 0
+			lifetime: 45
+			collidesAir: false
+			damage: 300
+			pierce: true
+			pierceCap: 2
+			shootEffect: none
+			smokeEffect: none
+			homingPower: 0.1
+			homingDelay: 20
+		}
+	}
+]
+research: {
+	parent: pax
+	requirements: [
+		sanguine/24000
+		viridian/8000
+	]
+	objectives: [locker]
+}

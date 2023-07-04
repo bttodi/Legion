@@ -1,0 +1,49 @@
+type: hover
+localizedName: Husk
+description: Attacks enemy targets up close.
+health: 4000
+outlineColor: 656657
+speed: 0.325
+drag: 0.05
+accel: 0.05
+itemCapacity: 0
+hitSize: 4
+createScorch: false
+deathSound: plantBreak
+deathExplosionEffect: none
+targetAir: false
+lightRadius: 0
+abilities: [
+	{
+		type: LiquidExplodeAbility
+		liquid: neoplasm
+		amount: 10
+		display: false
+	}
+]
+weapons: [
+	{
+		mirror: false
+		reload: 12
+		shootSound: none
+		rotates: true
+		x: 0
+		bullet: {
+			type: RailBulletType
+			lightRadius: 0
+			length: 16
+			collidesAir: false
+			damage: 20
+			shootEffect: none
+			smokeEffect: none
+		}
+	}
+]
+research: {
+	parent: saha
+	requirements: [
+		sanguine/9000
+		viridian/3000
+	]
+	objectives: [locker]
+}
