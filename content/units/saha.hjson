@@ -29,11 +29,9 @@ weapons: [
 		rotates: true
 		x: 0
 		bullet: {
-			type: BasicBulletType
+			type: RailBulletType
 			lightRadius: 0
-			width: 0
-			speed: 2
-			lifetime: 8
+			length: 16
 			collidesAir: false
 			damage: 10
 			shootEffect: none
