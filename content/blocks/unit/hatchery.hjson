@@ -9,23 +9,23 @@ buildCostMultiplier: 2
 plans: [
 	{
 		unit: fink
-		time: 2000
+		time: 1200
 		requirements: [sanguine/75]
 	}
 	{
 		unit: saha
-		time: 2000
+		time: 2400
 		requirements: [sanguine/225]
 	}
 	{
-		unit: bolt
-		time: 30000
-		requirements: [sanguine/300]
+		unit: pax
+		time: 12000
+		requirements: [sanguine/200]
 	}
 	{
-		unit: pax
-		time: 24000
-		requirements: [sanguine/200]
+		unit: bolt
+		time: 15000
+		requirements: [sanguine/300]
 	}
 ]
 requirements: [
