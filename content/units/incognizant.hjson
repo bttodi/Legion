@@ -1,0 +1,122 @@
+type: flying
+localizedName: Incognizant
+description: With the magic of using world processors, steals resources from cores until destroyed or whatever.
+flying: true
+health: 20000
+outlineColor: 302d33
+speed: 2
+drag: 0.05
+accel: 0.05
+rotateSpeed: 0
+itemCapacity: 0
+hitSize: 24
+createScorch: false
+targetAir: false
+lightRadius: 0
+weapons: [
+	{
+		mirror: false
+		xRand: 2
+		reload: 4
+		shootSound: none
+		x: 0
+		shootCone: 360
+		shootY: -48
+		bullet: {
+			type: BasicBulletType
+			shrinkY: 0
+			collidesAir: false
+			collidesGround: false
+			damage: 1
+			width: 0
+			despawnEffect: none
+			keepVelocity: false
+			smokeEffect: coreBurn
+			shootEffect: {
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						useRotation: false
+						baseRotation: 90
+						particles: 1
+						lifetime: 48
+						randLength: false
+						sizeFrom: 2
+						sizeTo: 2
+						cone: 0
+						length: 48
+						layer: 99
+						region: legion-resource
+						colorFrom: C54242
+						colorTo: C54242
+						interp: circleIn
+					}
+					{
+						type: ParticleEffect
+						useRotation: false
+						baseRotation: 90
+						startDelay: 1
+						particles: 1
+						lifetime: 48
+						randLength: false
+						sizeFrom: 2
+						sizeTo: 2
+						cone: 0
+						length: 48
+						layer: 99
+						region: legion-resource
+						colorFrom: CF7356
+						colorTo: CF7356
+						interp: circleIn
+					}
+					{
+						type: ParticleEffect
+						useRotation: false
+						baseRotation: 90
+						startDelay: 2
+						particles: 1
+						lifetime: 48
+						randLength: false
+						sizeFrom: 2
+						sizeTo: 2
+						cone: 0
+						length: 48
+						layer: 99
+						region: legion-resource
+						colorFrom: e1e1e1
+						colorTo: e1e1e1
+						interp: circleIn
+					}
+					{
+						type: ParticleEffect
+						useRotation: false
+						baseRotation: 90
+						startDelay: 3
+						particles: 1
+						lifetime: 48
+						randLength: false
+						sizeFrom: 2
+						sizeTo: 2
+						cone: 0
+						length: 48
+						layer: 99
+						region: legion-resource
+						colorFrom: 5A9E81
+						colorTo: 5A9E81
+						interp: circleIn
+					}
+				]
+			}
+		}
+	}
+]
+parts: [
+	{
+		type: RegionPart
+		suffix: -tube
+		y: 58.75
+		layer: 115
+		outline: false
+	}
+]
