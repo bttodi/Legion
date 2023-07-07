@@ -2,12 +2,12 @@ type: hover
 localizedName: Tusk
 description: Attacks enemy targets up close, dealing heavy damage to buildings.
 health: 800
-outlineColor: 656657
+outlineColor: 6A3F7F
 speed: 0.225
 drag: 0.05
 accel: 0.05
 itemCapacity: 0
-hitSize: 4
+hitSize: 6
 createScorch: false
 deathSound: plantBreak
 deathExplosionEffect: none
@@ -37,6 +37,7 @@ weapons: [
 			buildingDamageMultiplier: 2
 			shootEffect: none
 			smokeEffect: none
+			pierceDamageFactor: 240
 		}
 	}
 ]

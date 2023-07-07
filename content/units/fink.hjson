@@ -36,6 +36,7 @@ weapons: [
 			damage: 60
 			shootEffect: none
 			smokeEffect: none
+			pierceDamageFactor: 60
 		}
 	}
 ]
