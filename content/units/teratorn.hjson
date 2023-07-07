@@ -8,7 +8,7 @@ speed: 0.325
 drag: 0.05
 accel: 0.05
 itemCapacity: 0
-hitSize: 4
+hitSize: 6
 createScorch: false
 deathSound: plantBreak
 deathExplosionEffect: none
@@ -25,23 +25,32 @@ abilities: [
 weapons: [
 	{
 		mirror: false
-		reload: 60
+		reload: 120
 		shootSound: none
 		rotates: true
 		x: 0
 		bullet: {
 			type: BasicBulletType
-			speed: 2
+			sprite: legion-resource
+			width: 6
+			height: 6
+			frontColor: FFC834
+			trailLength: 6
+			trailColor: FFC834
+			speed: 4
 			shrinkY: 0
-			lifetime: 45
+			lifetime: 20
 			collidesAir: false
 			damage: 300
 			pierce: true
-			pierceCap: 2
+			pierceBuilding: true
+			pierceCap: 3
 			shootEffect: none
 			smokeEffect: none
 			homingPower: 0.1
-			homingDelay: 20
+			homingDelay: 5
+			hitEffect: coreBurn
+			despawnEffect: coreBurn
 		}
 	}
 ]
