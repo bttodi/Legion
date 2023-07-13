@@ -1,8 +1,8 @@
 localizedName: Whiteout
-description: "An anomalous sector masked under heavy snowstorms, greatly reducing visibility. The enemy constantly patrols this area, set up defenses as soon as possible."
+description: "A frigid sector masked under heavy snowstorms, with greatly reduced visibility. The enemy constantly patrols this area, set up defenses as soon as possible."
 planet: nomine
 sector: 13
-difficulty: 5
+difficulty: 4
 research: {
 	parent: outwash
 	objectives: [
@@ -13,6 +13,7 @@ research: {
 	]
 }
 captureWave: 17
+noLighting: true
 addStartingItems: true
 allowLaunchLoadout: true
 allowLaunchSchematics: false
