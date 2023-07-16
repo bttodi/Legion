@@ -3,3 +3,7 @@ localizedName: Carmine
 description: Used in research and production of units.
 color: c54242
 research: titanite
+hiddenOnPlanets: [
+	serpulo
+	erekir
+]

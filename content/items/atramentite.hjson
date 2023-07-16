@@ -1,5 +1,9 @@
 type: Item
-localizedName: Atramentite
-description: Used in research, construction, and production of advanced buildings and units.
-color: 16111e
+localizedName: Atrament
+description: Used in research, construction, and production of highly advanced buildings and units.
+color: 3D3941
 cost: 4
+hiddenOnPlanets: [
+	serpulo
+	erekir
+]

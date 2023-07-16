@@ -5,3 +5,7 @@ color: e1e1e1
 cost: 1
 research: sienna
 alwaysUnlocked: true
+hiddenOnPlanets: [
+	serpulo
+	erekir
+]
