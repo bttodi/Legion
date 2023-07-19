@@ -26,23 +26,33 @@ requirements: [
 	sienna/750
 	titanite/750
 ]
-drawer: [
-	{
-		type: DrawDefault
-	}
-	{
-		type: DrawGlowRegion
-		suffix: -light
-		spinSprite: true
-		rotateSpeed: 1
-		color: 85b0cc
-		layer: 99
-	}
-	{
-		type: DrawShape
-		useWarmupRadius: true
-		radius: 4
-		color: 85b0cc
-		layer: 100
-	}
-]
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawDefault
+		}
+		{
+			type: DrawGlowRegion
+			suffix: -light
+			spinSprite: true
+			rotateSpeed: 1
+			color: 85b0cc
+			layer: 99
+		}
+		{
+			type: DrawShape
+			useWarmupRadius: true
+			radius: 4
+			layer: 100
+			color: 85b0cc
+		}
+		{
+			type: DrawFlame
+			lightSinScl: 0
+			lightRadius: 30
+			flameRadius: 0
+			flameColor: 85b0cc
+		}
+	]
+}
