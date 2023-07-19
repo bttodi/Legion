@@ -5,7 +5,7 @@ buildVisibility: shown
 health: 3000
 size: 3
 category: crafting
-craftTime: 120
+craftTime: 60
 outputItem: viridian/1
 buildCostMultiplier: 4
 itemCapacity: 30
