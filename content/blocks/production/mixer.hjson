@@ -8,6 +8,7 @@ category: crafting
 craftTime: 60
 outputItem: viridian/1
 buildCostMultiplier: 4
+ambientSound: drill
 itemCapacity: 30
 research: {
 	parent: formulator
@@ -24,7 +25,30 @@ research: {
 	]
 }
 requirements: [
-	sienna/200
-	titanite/200
-	sanguine/200
+	sienna/150
+	titanite/150
+	sanguine/150
 ]
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawMultiWeave
+			rotateSpeed2: -1.618
+			glowColor: 00000000
+		}
+		{
+			type: DrawFade
+			alpha: 0.75
+			suffix: -middle
+			scale: 60
+		}
+		{
+			type: DrawDefault
+		}
+	]
+}
