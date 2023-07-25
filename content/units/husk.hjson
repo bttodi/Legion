@@ -2,7 +2,7 @@ type: hover
 localizedName: Husk
 description: Attacks enemy targets up close.
 health: 4000
-outlineColor: 656657
+outlineColor: 725B28
 speed: 0.325
 drag: 0.05
 accel: 0.05
