@@ -37,9 +37,9 @@ requirements: [
 research: {
 	parent: hatchery
 	requirements: [
-		sienna/10000
-		titanite/10000
-		sanguine/15000
-		viridian/5000
+		sienna/7500
+		titanite/7500
+		sanguine/10000
+		viridian/2500
 	]
 }
