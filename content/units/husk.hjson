@@ -7,7 +7,7 @@ speed: 0.325
 drag: 0.05
 accel: 0.05
 itemCapacity: 0
-hitSize: 4
+hitSize: 6
 createScorch: false
 deathSound: plantBreak
 deathExplosionEffect: none
@@ -26,7 +26,6 @@ weapons: [
 		mirror: false
 		reload: 12
 		shootSound: none
-		rotates: true
 		x: 0
 		bullet: {
 			type: RailBulletType
@@ -37,6 +36,7 @@ weapons: [
 			shootEffect: none
 			smokeEffect: none
 			pierceDamageFactor: 20
+			pierce: false
 		}
 	}
 ]

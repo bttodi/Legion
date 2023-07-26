@@ -26,7 +26,6 @@ weapons: [
 		mirror: false
 		reload: 12
 		shootSound: none
-		rotates: true
 		x: 0
 		bullet: {
 			type: RailBulletType
@@ -38,6 +37,7 @@ weapons: [
 			shootEffect: none
 			smokeEffect: none
 			pierceDamageFactor: 240
+			pierce: false
 		}
 	}
 ]
