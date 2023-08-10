@@ -1,9 +1,9 @@
 type: flying
 localizedName: Teratorn
-description: Attacks enemy targets from a distance with piercing projectiles.
+description: Attacks enemy targets with piercing projectiles.
 flying: true
 health: 1600
-outlineColor: 656657
+outlineColor: 272F84
 speed: 0.325
 drag: 0.05
 accel: 0.05
@@ -14,6 +14,10 @@ deathSound: plantBreak
 deathExplosionEffect: none
 targetAir: false
 lightRadius: 0
+engineSize: 0
+fallEffect: none
+fallEngineEffect: none
+range: 40
 abilities: [
 	{
 		type: LiquidExplodeAbility
@@ -28,18 +32,19 @@ weapons: [
 		reload: 120
 		shootSound: none
 		rotates: true
+		shootY: 0
 		x: 0
 		bullet: {
 			type: BasicBulletType
 			sprite: legion-resource
-			width: 6
-			height: 6
+			width: 4
+			height: 4
 			frontColor: FFC834
 			trailLength: 6
 			trailColor: FFC834
-			speed: 4
+			speed: 2
 			shrinkY: 0
-			lifetime: 20
+			lifetime: 40
 			collidesAir: false
 			damage: 300
 			pierce: true
@@ -48,7 +53,7 @@ weapons: [
 			shootEffect: none
 			smokeEffect: none
 			homingPower: 0.1
-			homingDelay: 5
+			homingDelay: 10
 			hitEffect: coreBurn
 			despawnEffect: coreBurn
 		}
