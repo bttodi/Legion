@@ -20,6 +20,9 @@ fallEngineEffect: none
 deathSound: plantBreak
 deathExplosionEffect: none
 lightRadius: 0
+engineSize: 0
+fallEffect: none
+fallEngineEffect: none
 abilities: [
 	{
 		type: LiquidExplodeAbility
