@@ -6,6 +6,9 @@ difficulty: 5
 research: {
 	parent: whiteout
 	objectives: [
+		core-agony
+		talon
+		viridian-wall
 		{
 			type: SectorComplete
 			preset: whiteout
