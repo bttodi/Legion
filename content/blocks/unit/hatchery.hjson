@@ -5,7 +5,8 @@ health: 4000
 size: 3
 buildVisibility: shown
 category: units
-buildCostMultiplier: 2
+buildCostMultiplier: 1.6
+capacities: [0]
 plans: [
 	{
 		unit: fink

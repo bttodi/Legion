@@ -9,7 +9,7 @@ craftTime: 60
 itemCapacity: 30
 outputItem: sanguine/1
 ambientSound: bioLoop
-buildCostMultiplier: 6
+buildCostMultiplier: 3
 research: {
 	parent: quarry
 	requirements: [
@@ -21,18 +21,21 @@ requirements: [
 	sienna/100
 	titanite/100
 ]
-drawer: [
-	{
-		type: DrawRegion
-		suffix: -middle
-	}
-	{
-		type: DrawSpikes
-		radius: 4
-		color: E05438
-		amount: 6
-	}
-	{
-		type: DrawDefault
-	}
-]
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -middle
+		}
+		{
+			type: DrawSpikes
+			radius: 4
+			color: E05438
+			amount: 6
+		}
+		{
+			type: DrawDefault
+		}
+	]
+}

@@ -6,7 +6,7 @@ health: 15000
 size: 3
 category: turret
 range: 125
-reload: 600
+reload: 60
 canOverdrive: false
 shootY: 0
 recoil: 0
@@ -16,18 +16,14 @@ shootCone: 180
 targetHealing: false
 shootWarmupSpeed: 0.05
 minWarmup: 0.99
-buildCostMultiplier: 3
+buildCostMultiplier: 1.8
 shootType: {
 	type: BulletType
 	spawnUnit: tesla
-	damage: 100
+	damage: 100 
 	ammoMultiplier: 1
 	shootEffect: none
 	smokeEffect: none
-}
-shoot: {
-	shots: 10
-	shotDelay: 10
 }
 drawer: [
 	{

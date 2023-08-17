@@ -8,7 +8,7 @@ range: 20
 healPercent: 0.055
 optionalMultiplier: 1
 category: defense
-buildCostMultiplier: 2
+buildCostMultiplier: 1.2
 research: {
 	parent: titanite-wall
 	objectives: [

@@ -7,7 +7,7 @@ size: 3
 category: crafting
 craftTime: 60
 outputItem: sienna/1
-buildCostMultiplier: 6
+buildCostMultiplier: 3
 itemCapacity: 30
 research: core-sin
 alwaysUnlocked: true
@@ -28,18 +28,21 @@ craftEffect: {
 		}
 	]
 }
-drawer: [
-	{
-		type: DrawRegion
-		suffix: -bottom
-	}
-	{
-		type: DrawArcSmelt
-	}
-	{
-		type: DrawDefault
-	}
-]
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawArcSmelt
+		}
+		{
+			type: DrawDefault
+		}
+	]
+}
 requirements: [
 	titanite/100
 ]

@@ -7,7 +7,7 @@ size: 3
 category: crafting
 craftTime: 60
 outputItem: viridian/1
-buildCostMultiplier: 4
+buildCostMultiplier: 2
 ambientSound: drill
 itemCapacity: 30
 research: {

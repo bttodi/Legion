@@ -5,7 +5,7 @@ buildVisibility: shown
 health: 6000
 size: 3
 category: turret
-buildCostMultiplier: 3
+buildCostMultiplier: 1.8
 range: 150
 reload: 120
 canOverdrive: false
