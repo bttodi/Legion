@@ -1,72 +1,142 @@
 type: PowerTurret
 localizedName: Dictum
-description: Fires a piercing bolt with a long line of fire.
+description: Fires a piercing bolt with a far reach at grounded targets.
 buildVisibility: shown
 health: 18000
 size: 3
 category: turret
-buildCostMultiplier: 4
+buildCostMultiplier: 0.9
 range: 150
 reload: 240
 canOverdrive: false
-shootY: 20
-recoil: 0
+recoil: 2
 shootSound: plasmaboom
-shootCone: 2
+shootCone: 1
 targetAir: false
+outlineColor: 302D33
+minWarmup: 0.99
 shootType: {
-	type: RailBulletType
+	type: BasicBulletType
+	frontColor: 64AAE1
+	shrinkY: 0
+	width: 6
+	height: 6
+	sprite: legion-resource
 	collidesAir: false
-	length: 640
-	ammoMultiplier: 1
-	damage: 400
-	pierceDamageFactor: 0
-	buildingDamageMultiplier: 0.1
+	lifetime: 40
+	speed: 16
+	displayAmmoMultiplier: false
+	damage: 600
+	pierce: true
+	buildingDamageMultiplier: 0
 	hitEffect: none
-	pierceEffect: teleportOut
 	smokeEffect: none
 	shootEffect: none
-	pointEffect: {
-		type: MultiEffect
-		effects: [
-			{
-				type: ParticleEffect
-				layer: 105
-				lifetime: 120
-				particles: 1
-				cone: 0
-				length: 0.01
-				line: true
-				colorFrom: 5691bf
-				colorTo: 5691bf
-				lenFrom: -20
-				lenTo: -20
-				interp: circleIn
-				strokeFrom: 2
-			}
-			{
-				type: ParticleEffect
-				layer: 105
-				lifetime: 120
-				particles: 1
-				length: 0
-				interp: circleIn
-				colorFrom: 5691bf
-				colorTo: 5691bf
-				sizeFrom: 2
-				sizeTo: 0
-			}
-			{
-				type: ParticleEffect
-				lifetime: 120
-				particles: 1
-				length: 0
-				interp: circleIn
-				colorFrom: e1e1e1
-				colorTo: e1e1e1
-				sizeFrom: 1
-				sizeTo: 0
-			}
-		]
+	hitEffect: {
+		type: WaveEffect
+		lifetime: 15
+		colorFrom: ffffff
+		colorTo: 64AAE1
+		strokeFrom: 4
+		strokeTo: 2
+		sizeTo: 8
 	}
+	despawnEffect: {
+		type: WaveEffect
+		lifetime: 10
+		colorFrom: ffffff
+		colorTo: 64AAE1
+		strokeFrom: 4
+		strokeTo: 2
+		sizeTo: 16
+	}
+	trailInterval: 1
+	trailEffect: {
+		type: ParticleEffect
+		particles: 1
+		region: legion-coil
+		spin: 20
+		lifetime: 10
+		colorFrom: 64AAE1
+		colorTo: 64AAE100
+		interp: pow5In
+		cone: 0
+		sizeFrom: 4
+		sizeTo: 4
+		length: 0
+		}
+	trailLength: 5
+	trailWidth: 2
+	trailColor: 64AAE1
+	bulletInterval: 1
 }
+drawer: {
+	type: DrawTurret
+	parts: [
+		{
+			type: RegionPart
+			suffix: -sink
+			x: 3.5
+			y: 2.5
+			moveX: 2.25
+			moveY: -2.25
+			progress: warmup
+			heatProgress: warmup
+			heatColor: 64AAE17F
+		}
+		{
+			type: RegionPart
+			suffix: -sink
+			rotation: 270
+			x: -3.5
+			y: 2.5
+			moveX: -2.25
+			moveY: -2.25
+			progress: warmup
+			heatProgress: warmup
+			heatColor: 64AAE17F
+		}
+		{
+			type: RegionPart
+			suffix: -sink
+			x: 3.5
+			y: -4
+			moveX: 2.25
+			moveY: -2.25
+			progress: warmup
+			heatProgress: warmup
+			heatColor: 64AAE17F
+		}
+		{
+			type: RegionPart
+			suffix: -sink
+			rotation: 270
+			x: -3.5
+			y: -4
+			moveX: -2.25
+			moveY: -2.25
+			progress: warmup
+			heatProgress: warmup
+			heatColor: 64AAE17F
+		}
+		{
+			type: RegionPart
+			suffix: -turret
+		}
+	]
+}
+research: {
+	parent: talon
+	requirements: [
+		sienna/2500
+		titanite/2500
+		viridian/5000
+		atramentite/500
+	]
+}
+requirements: [
+	sienna/250
+	titanite/250
+	viridian/500
+	atramentite/100
+]
