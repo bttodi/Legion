@@ -1,18 +1,19 @@
 type: hover
 localizedName: Usurper
-description: Attacks enemy targets from a distance with explosive projectiles.
+description: Attacks enemy targets with explosive projectiles.
 health: 8000
-outlineColor: 656657
-speed: 0.225
+outlineColor: 602626
+speed: 0.2
 drag: 0.05
 accel: 0.05
 itemCapacity: 0
-hitSize: 100
+hitSize: 6
 createScorch: false
 deathSound: plantBreak
 deathExplosionEffect: none
 targetAir: false
 lightRadius: 0
+range: 40
 abilities: [
 	{
 		type: LiquidExplodeAbility
@@ -23,26 +24,37 @@ abilities: [
 ]
 weapons: [
 	{
-		mirror: false
-		reload: 30
-		shootSound: none
-		rotates: true
+		name: usurper-weapon
+		reload: 50
+		shootSound: missile
 		x: 0
+		shootX: 4
+		top: false
 		bullet: {
 			type: BasicBulletType
 			lightRadius: 0
-			width: 0
+			sprite: missile-large
+			width: 4
+			height: 4
+			shrinkY: 0
 			speed: 2
-			lifetime: 8
-			collidesAir: false
-			damage: 750
+			lifetime: 30
+			damage: 0
+			splashDamage: 750
+			splashDamageRadius: 24
 			shootEffect: none
 			smokeEffect: none
+			hitEffect: flakExplosion
+			despawnEffect: none
+			scaleLife: true
+			hitSound: bang
+			trailWidth: 1.5
+			trailLength: 4
 		}
 	}
 ]
 research: {
-	parent: fink
+	parent: bolt
 	requirements: [
 		sanguine/15000
 		viridian/5000
