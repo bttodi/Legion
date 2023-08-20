@@ -2,7 +2,7 @@ type: PowerTurret
 localizedName: Rupture
 description: Discharges bursts of lightning at up to five targets. Cannot hit or target buildings.
 buildVisibility: shown
-health: 15000
+health: 12000
 size: 3
 category: turret
 range: 125
