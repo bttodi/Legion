@@ -2,7 +2,7 @@ type: ContinuousTurret
 localizedName: Talon
 description: Points a single-target laser at grounded targets.
 buildVisibility: shown
-health: 9000
+health: 12000
 size: 3
 category: turret
 range: 80
