@@ -1,0 +1,16 @@
+type: Wall
+localizedName: Atrament Wall
+description: Protects buildings against enemy attacks.
+buildVisibility: shown
+health: 9000
+category: defense
+buildCostMultiplier: 9
+research: {
+	parent: viridian-wall
+	requirements: [
+		atramentite/150
+	]
+}
+requirements: [
+	atramentite/5
+]
