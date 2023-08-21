@@ -25,7 +25,7 @@ abilities: [
 weapons: [
 	{
 		name: usurper-weapon
-		reload: 50
+		reload: 45
 		shootSound: missile
 		x: 0
 		shootX: 4
