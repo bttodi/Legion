@@ -59,5 +59,11 @@ research: {
 		sanguine/15000
 		viridian/5000
 	]
-	objectives: [locker]
+	objectives: [
+		locker
+		{
+			type: SectorComplete
+			preset: frontier
+		}
+	]
 }
