@@ -1,31 +1,31 @@
 type: UnitFactory
 localizedName: Locker
 description: Produces higher-tier units with carmine.
-health: 4000
+health: 6000
 size: 5
 buildVisibility: shown
 category: units
-buildCostMultiplier: 2
+buildCostMultiplier: 1.5
 plans: [
 	{
 		unit: husk
-		time: 3600
-		requirements: [sanguine/240]
+		time: 2700
+		requirements: [sanguine/270]
 	}
 	{
 		unit: tusk
-		time: 7200
-		requirements: [sanguine/480]
+		time: 5400
+		requirements: [sanguine/540]
 	}
 	{
 		unit: teratorn
-		time: 10800
+		time: 7200
 		requirements: [sanguine/900]
 	}
 	{
 		unit: usurper
 		time: 18000
-		requirements: [sanguine/1800]
+		requirements: [sanguine/2400]
 	}
 ]
 requirements: [
