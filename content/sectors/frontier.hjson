@@ -1,0 +1,17 @@
+localizedName: Frontier
+description: "A testing site is sighted over the vast sands. Better units can be realized after capture."
+planet: nomine
+sector: 77
+difficulty: 5
+research: {
+	parent: fringe
+	objectives: [
+		{
+			type: SectorComplete
+			preset: fringe
+		}
+	]
+}
+addStartingItems: true
+allowLaunchLoadout: true
+allowLaunchSchematics: false
