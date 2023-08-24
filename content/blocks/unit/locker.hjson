@@ -19,7 +19,7 @@ plans: [
 	}
 	{
 		unit: teratorn
-		time: 7200
+		time: 9000
 		requirements: [sanguine/900]
 	}
 	{
