@@ -2,7 +2,7 @@ type: Wall
 localizedName: Atrament Wall
 description: Protects buildings against enemy attacks.
 buildVisibility: shown
-health: 9000
+health: 7500
 category: defense
 buildCostMultiplier: 9
 research: {
