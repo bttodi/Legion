@@ -2,7 +2,7 @@ type: CoreBlock
 localizedName: "Core: Agony"
 description: Core of the base. Stores 3000 items of each type.
 buildVisibility: shown
-health: 150000
+health: 36000
 size: 4
 category: effect
 itemCapacity: 3000
