@@ -2,7 +2,7 @@ type: CoreBlock
 localizedName: "Core: Sin"
 description: Core of the base. Stores 1500 items of each type.
 buildVisibility: shown
-health: 30000
+health: 12000
 size: 3
 category: effect
 itemCapacity: 1500
