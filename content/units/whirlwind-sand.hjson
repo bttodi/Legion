@@ -1,14 +1,13 @@
 localizedName: Sand Whirlwind
-description: Continuously deals damage to nearby targets.
+description: Continuously pulls in and deals damage to nearby targets. Exclusive to enemies, but I have to keep it unhidden otherwise they cannot be spawned in by world processors.
 type: missile
+lifetime: 7200
 template: ErekirUnitType
 targetable: false
 hittable: false
-defaultController: HugAI
-lifetime: 7200
 physics: false
-rotateSpeed: 0
-speed: 0.5
+rotateSpeed: 0.2
+speed: 1
 health: 40000
 itemCapacity: 0
 hitSize: 24
@@ -23,6 +22,9 @@ fallEffect: none
 fallEngineEffect: none
 deathSound: none
 deathExplosionEffect: none
+omniMovement: false
+clipSize: 1024
+isEnemy: false
 weapons: [
 	{
 		type: Weapon
@@ -32,6 +34,7 @@ weapons: [
 		reload: 6
 		mirror: false
 		shootSound: none
+		rotateSpeed: 0
 		bullet: {
 			type: BasicBulletType
 			pierce: true
@@ -47,11 +50,14 @@ weapons: [
 			smokeEffect: none
 			hitEffect: none
 			despawnEffect: none
-			damage: 15
-			splashDamage: 10
-			splashDamageRadius: 32
+			damage: 20
+			splashDamage: 20
+			splashDamageRadius: 64
 			splashDamagePierce: true
-			knockback: -0.25
+			buildingDamageMultiplier: 30
+			knockback: -1.25
+			lightRadius: 0
+			removeAfterPierce: false
 		}
 	}
 ]
@@ -69,33 +75,18 @@ abilities: [
 					region: legion-smoke
 					baseRotation: 90
 					colorFrom: B58463
-					colorTo: B5846300
-					spin: 6
-					lifetime: 120
-					length: 120
-					randLength: false
-					cone: 4
-					particles: 1
-					sizeFrom: 2
-					sizeTo: 32
-					layer: 128
-				}
-				{
-					type: ParticleEffect
-					region: legion-smoke
-					baseRotation: 90
-					colorFrom: D3A781
-					colorTo: D3A78100
-					spin: 4
+					colorTo: 9B6D5000
+					spin: 6.875
 					lifetime: 120
 					baseLength: -3
 					length: 120
 					randLength: false
 					cone: 4
 					particles: 1
-					sizeFrom: 2
+					sizeFrom: 8
 					sizeTo: 32
 					layer: 128
+					clip: 1024
 				}
 				{
 					type: ParticleEffect
@@ -103,46 +94,32 @@ abilities: [
 					baseRotation: 90
 					colorFrom: B58463
 					colorTo: B5846300
-					spin: 6
+					spin: 6.875
 					lifetime: 120
 					length: 120
 					randLength: false
 					cone: 22.5
 					particles: 1
-					sizeFrom: 3
+					sizeFrom: 12
 					sizeTo: 48
 					layer: 128
+					clip: 1024
 				}
 				{
 					type: ParticleEffect
 					region: legion-smoke
 					colorFrom: B5846300
-					colorTo: D3A781ff
-					spin: 3.1415926
+					colorTo: B58463ff
+					spin: 6.875
 					lifetime: 30
 					length: 0
 					randLength: false
 					cone: 180
 					particles: 1
-					sizeFrom: 32
+					sizeFrom: 64
 					sizeTo: 4
-					layer: 65
-				}
-				{
-					type: ParticleEffect
-					region: legion-offdots
-					colorFrom: D3A781ff
-					colorTo: D3A78100
-					spin: 8
-					lifetime: 60
-					length: 30
-					randLength: false
-					cone: 180
-					particles: 2
-					sizeFrom: 0
-					sizeTo: 16
-					layer: 65
-					sizeInterp: pow10Out
+					layer: 128
+					clip: 1024
 				}
 			]
 		}
