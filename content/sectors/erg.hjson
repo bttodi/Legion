@@ -1,0 +1,17 @@
+localizedName: Erg
+description: "The region is engulfed by turbulent sandstorms. Keep distance from the [accent]whirlwinds[] present. Ready defensive firepower."
+planet: nomine
+sector: 90
+difficulty: 8
+research: {
+	parent: frontier
+	objectives: [
+		{
+			type: SectorComplete
+			preset: frontier
+		}
+	]
+}
+addStartingItems: true
+allowLaunchLoadout: true
+allowLaunchSchematics: false
