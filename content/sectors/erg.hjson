@@ -12,6 +12,7 @@ research: {
 		}
 	]
 }
+noLighting: true
 addStartingItems: true
 allowLaunchLoadout: true
 allowLaunchSchematics: false
