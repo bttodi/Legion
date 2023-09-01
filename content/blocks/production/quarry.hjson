@@ -7,7 +7,7 @@ size: 3
 category: crafting
 craftTime: 240
 outputItem: titanite/4
-buildCostMultiplier: 3
+buildCostMultiplier: 1.5
 itemCapacity: 30
 research: burner
 craftEffect: {
@@ -65,5 +65,5 @@ craftEffect: {
 }
 alwaysUnlocked: true
 requirements: [
-	sienna/100
+	sienna/120
 ]
