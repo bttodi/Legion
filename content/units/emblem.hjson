@@ -12,12 +12,15 @@ targetable: false
 hittable: false
 vulnerableWithPayloads: true
 payloadCapacity: 576
-buildSpeed: 1.75
+buildSpeed: 1.5
 engineSize: 0
 pickupUnits: false
 alwaysUnlocked: true
 defaultController: BuilderAI
 drawBuildBeam: false
+fogRadius: 8
+faceTarget: false
+range: 64
 engines: [
 	{
 		x: -2.5
@@ -35,6 +38,7 @@ engines: [
 weapons: [
 	{
 		type: BuildWeapon
+		display: false
 		x: 3
 		y: 2.5
 	}
