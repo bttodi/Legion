@@ -1,7 +1,7 @@
 type: hover
 localizedName: Usurper
 description: Attacks enemy targets with explosive projectiles.
-health: 8000
+health: 6000
 outlineColor: 602626
 speed: 0.2
 drag: 0.05
@@ -25,7 +25,7 @@ abilities: [
 weapons: [
 	{
 		name: usurper-weapon
-		reload: 45
+		reload: 60
 		shootSound: missile
 		x: 0
 		shootX: 4
