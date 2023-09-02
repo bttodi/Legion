@@ -3,7 +3,7 @@ localizedName: Tusk
 description: Attacks enemy targets up close, dealing heavy damage to buildings.
 health: 800
 outlineColor: 6A3F7F
-speed: 0.225
+speed: 0.325
 drag: 0.05
 accel: 0.05
 itemCapacity: 0
