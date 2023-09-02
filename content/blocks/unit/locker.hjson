@@ -10,22 +10,22 @@ plans: [
 	{
 		unit: husk
 		time: 2700
-		requirements: [sanguine/270]
+		requirements: [sanguine/225]
 	}
 	{
 		unit: tusk
 		time: 5400
-		requirements: [sanguine/540]
+		requirements: [sanguine/450]
 	}
 	{
 		unit: teratorn
-		time: 9000
+		time: 7200
 		requirements: [sanguine/900]
 	}
 	{
 		unit: usurper
 		time: 18000
-		requirements: [sanguine/2400]
+		requirements: [sanguine/2700]
 	}
 ]
 requirements: [
