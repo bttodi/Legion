@@ -32,10 +32,9 @@ weapons: [
 		bullet: {
 			type: ExplosionBulletType
 			rangeOverride: 12
-			splashDamage: 1000
+			splashDamage: 1500
 			splashDamageRadius: 32
-			splashDamagePierce: true
-			buildingDamageMultiplier: 0.5
+			buildingDamageMultiplier: 0.7
 			pierce: true
 			despawnEffect: none
 			shootEffect: {
