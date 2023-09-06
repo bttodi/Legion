@@ -1,0 +1,47 @@
+type: GenericCrafter
+localizedName: Vat
+description: Combines sienna, titanite, carmine, and viridian into atrament.
+buildVisibility: shown
+health: 6000
+size: 3
+category: crafting
+craftTime: 60
+outputItem: atramentite/2
+buildCostMultiplier: 0.6
+ambientSound: flux
+itemCapacity: 30
+liquidCapacity: 1
+consumes: {
+	items: [
+		sienna/3
+		titanite/3
+		sanguine/3
+		viridian/3
+	]
+}
+requirements: [
+	sienna/300
+	titanite/300
+	sanguine/300
+	viridian/300
+]
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawSpikes
+			amount: 7
+			rotateSpeed: 2
+			radius: 2
+			length: 6
+			color: 49444C
+		}
+		{
+			type: DrawDefault
+		}
+	]
+}
