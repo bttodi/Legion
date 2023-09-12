@@ -6,17 +6,16 @@ size: 3
 buildVisibility: shown
 category: units
 buildCostMultiplier: 1.6
-capacities: [0]
 plans: [
 	{
 		unit: fink
 		time: 1200
-		requirements: [sanguine/75]
+		requirements: [sanguine/60]
 	}
 	{
 		unit: saha
 		time: 2400
-		requirements: [sanguine/225]
+		requirements: [sanguine/150]
 	}
 	{
 		unit: pax
