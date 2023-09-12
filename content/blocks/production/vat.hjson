@@ -45,3 +45,18 @@ drawer: {
 		}
 	]
 }
+research: {
+	parent: mixer
+	objectives: [
+		{
+			type: SectorComplete
+			preset: crest
+		}
+	]
+	requirements: [
+		sienna/4500
+		titanite/4500
+		sanguine/4500
+		viridian/4500
+	]
+}
