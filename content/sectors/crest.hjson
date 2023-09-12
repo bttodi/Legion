@@ -1,0 +1,17 @@
+localizedName: Crest
+description: "A perilous ascent to a great mountain ridge. [accent]Aerial forces[] will prove greatly advantageous. Secure [accent]atrament production[] and research better defenses."
+planet: nomine
+sector: 89
+difficulty: 8
+research: {
+	parent: erg
+	objectives: [
+		{
+			type: SectorComplete
+			preset: erg
+		}
+	]
+}
+addStartingItems: true
+allowLaunchLoadout: true
+allowLaunchSchematics: false
