@@ -46,7 +46,7 @@ weapons: [
 			shrinkY: 0
 			lifetime: 40
 			collidesAir: false
-			damage: 300
+			damage: 200
 			pierce: true
 			pierceBuilding: true
 			pierceCap: 3
